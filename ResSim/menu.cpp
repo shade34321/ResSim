@@ -44,6 +44,7 @@ void menu::interactiveMenu(){
     int level;
     int numTables;
     int seats;
+	int hours;
     int type;
     int avgCookTime;
     int numServers;
@@ -61,6 +62,8 @@ void menu::interactiveMenu(){
         std::cin >> numTables;
         std::cout << "How many guests can sit at each table?" << std::endl;
         std::cin >> seats;
+		std::cout << "How many hours would you like this simulation to run for?" << std::endl;
+		std::cin >> hours;
         std::cout << "What type of restaurant are you?" << std::endl;
         std::cout << "1. Casual" << std::endl;
         std::cout << "2. Bistro" << std::endl;
@@ -94,6 +97,7 @@ void menu::fileMenu(){
     int level;
     int numTables;
     int seats;
+	int hours;
     int type;
     int avgCookTime;
     int numServers;
@@ -112,7 +116,7 @@ file:
         }
         
         getline(input, name);
-        input >> level >> numTables >> seats >> type >> avgCookTime >> numServers;
+        input >> level >> numTables >> seats >> hours >> type >> avgCookTime >> numServers;
         
         for(int i =0;i<numServers;i++){
             int j;
@@ -124,6 +128,7 @@ file:
         std::cout << level << std::endl;
         std::cout << numTables << std::endl;
         std::cout << seats << std::endl;
+		std::cout << hours << std::endl;
         std::cout << type << std::endl;
         std::cout << avgCookTime << std::endl;
         std::cout << numServers << std::endl;
