@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33131EE21723328A005196DE /* compareParty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33131EE11723328A005196DE /* compareParty.cpp */; };
 		33192053171C6D2C001DE55C /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33192051171C6D2C001DE55C /* menu.cpp */; };
 		3329BBA9171F286200D0746C /* cook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3329BBA5171F286200D0746C /* cook.cpp */; };
 		3329BBAA171F286200D0746C /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3329BBA7171F286200D0746C /* file.cpp */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		33131EE017233277005196DE /* compareParty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compareParty.h; sourceTree = "<group>"; };
+		33131EE11723328A005196DE /* compareParty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compareParty.cpp; sourceTree = "<group>"; };
 		33192051171C6D2C001DE55C /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
 		33192052171C6D2C001DE55C /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
 		3329BBA5171F286200D0746C /* cook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cook.cpp; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				33192052171C6D2C001DE55C /* menu.h */,
 				332CD6FC1716093400E57EAD /* main.cpp */,
 				332CD6FE1716093400E57EAD /* ResSim.1 */,
+				33131EE017233277005196DE /* compareParty.h */,
+				33131EE11723328A005196DE /* compareParty.cpp */,
 			);
 			path = ResSim;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				3329BBB7171F287500D0746C /* restaurant.cpp in Sources */,
 				3329BBB8171F287500D0746C /* server.cpp in Sources */,
 				3329BBB9171F287500D0746C /* table.cpp in Sources */,
+				33131EE21723328A005196DE /* compareParty.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
