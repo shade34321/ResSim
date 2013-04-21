@@ -7,14 +7,20 @@
 
 class table{
 private:
+    int seats;
 	party p;
 	server s;
 	bool empty;
 protected:
 
 public:
-	table();
+	table(int);
 	bool isEmpty();
+    void setServer(server);
+    server getServer();
+    void setParty(party);
+    party getParty();
+    int getSeats();
 };
 
 #endif

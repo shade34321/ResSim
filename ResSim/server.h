@@ -9,6 +9,7 @@ class server{
 	private:
 		int skill;
 		int numTables;
+        bool busy;
 		std::vector<party> guests;
     
 public:
@@ -16,6 +17,7 @@ public:
 	void addParty(party);
 	int orderTime(party);
 	bool canHandleAnother();
+    bool isBusy();
 };
 
 #endif

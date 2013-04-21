@@ -36,3 +36,6 @@ int server::orderTime(party p){
 bool server::canHandleAnother(){
 	return (guests.size()<numTables);
 }
+bool server::isBusy(){
+    return busy;
+}
